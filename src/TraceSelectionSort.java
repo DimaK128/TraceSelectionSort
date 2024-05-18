@@ -41,5 +41,8 @@ public class TraceSelectionSort {
         int[] arr = { 13, 75, 12, 4, 18, 6, 9, 10, 7, 14, 15 };
         System.out.println("Initial array: " + Arrays.toString(arr));
         selectionSort(arr);
+
+        // Print the sorted array
+        System.out.println("Sorted array: " + Arrays.toString(arr));
     }
 }
